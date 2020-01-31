@@ -14,7 +14,6 @@ let colorStates = {
 // Without JavaScript, clicking on these heart shapes does nothing. Uncomment
 // this code and refresh the demo page.
 let articleHearts = document.querySelectorAll(".like");
-
 function likeCallback(e) {
   let heart = e.target;
   mimicServerCall()
@@ -32,7 +31,6 @@ function likeCallback(e) {
       alert("Something went wrong!");
     });
 }
-
 // STEP 3: In order for the call to the server and the update of the screen to
 // work, the elements we identify in STEP 1 need to be told to run that update
 // code when an "event" is fired. That's Pillar 2, event handling. Uncomment
